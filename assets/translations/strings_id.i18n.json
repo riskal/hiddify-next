@@ -18,7 +18,11 @@
     "unknown": "Tidak Dikenal",
     "hidden": "Tersembunyi",
     "timeout": "Waktu habis",
-    "clipboardExportSuccessMsg": "Ditambahkan ke Papan Klip"
+    "clipboardExportSuccessMsg": "Ditambahkan ke Papan Klip",
+    "showMore": "Lihat Selengkapnya ",
+    "showLess": "Lihat Sedikit",
+    "openAppSettings": "Buka Pengaturan App",
+    "grantPermission": "Setujui Permintaan"
   },
   "intro": {
     "termsAndPolicyCaution(rich)": "lanjut berarti setuju dengan ${tap(@:about.termsAndConditions)}",
@@ -31,10 +35,13 @@
   },
   "stats": {
     "traffic": "Trafik Langsung",
+    "trafficLive": "Lalu lintas Data",
     "trafficTotal": "Total Trafik",
     "uplink": "Uplink",
     "downlink": "Downlink",
-    "connection": "Sambungan"
+    "connection": "Sambungan",
+    "speed": "Kecepatan",
+    "totalTransferred": "Transfer Total"
   },
   "profile": {
     "overviewPageTitle": "Beberapa Profil",
@@ -48,7 +55,11 @@
       "remainingDuration": "Tersisa ${duration} hari lagi",
       "remainingTrafficSemanticLabel": "${consumed}/${total} trafik terpakai",
       "expired": "Kadaluarsa",
-      "noTraffic": "Kuota Habis"
+      "noTraffic": "Kuota Habis",
+      "upload": "Unggah",
+      "download": "Unduh",
+      "total": "Trafik Total",
+      "expireDate": "Waktu Kadaluarsa"
     },
     "sortBy": {
       "lastUpdate": "Baru diperbaharui",
@@ -63,7 +74,8 @@
         "permissionDeniedError": "Izin ditolak",
         "unexpectedError": "Terjadi masalah",
         "torchSemanticLabel": "Lampu Flash",
-        "facingSemanticLabel": "Hadap Kamera"
+        "facingSemanticLabel": "Hadap Kamera",
+        "permissionRequest": "Izinkan akses kamera untuk Scan QR Code"
       },
       "manually": "Isian Manual",
       "addingProfileMsg": "Tambahkan Profil",
@@ -79,12 +91,12 @@
       "namedSuccessMsg": "Sukses perbarui \"${name}\""
     },
     "share": {
-      "buttonText": "Bagi",
-      "exportToClipboardSuccess": "Taruh ke clipboard",
-      "exportSubLinkToClipboard": "Taruh link langganan ke clipboard",
+      "buttonText": "Bagikan",
+      "exportToClipboardSuccess": "Taruh ke Papan Klip",
+      "exportSubLinkToClipboard": "Taruh link langganan ke Papan Klip",
       "subLinkQrCode": "Link Langganan QR",
-      "exportConfigToClipboard": "Taruh konfigurasi ke clipboard",
-      "exportConfigToClipboardSuccess": "Salin konfigurasi ke clipboard"
+      "exportConfigToClipboard": "Taruh konfigurasi ke Papan Klip",
+      "exportConfigToClipboardSuccess": "Salin konfigurasi ke Papan Klip"
     },
     "edit": {
       "buttonTxt": "Ubah",
@@ -97,7 +109,7 @@
     },
     "save": {
       "buttonText": "Simpan",
-      "successMsg": "Sukses simpan profil",
+      "successMsg": "Sukses Simpan Profil",
       "failureMsg": "Gagal simpan profil"
     },
     "detailsForm": {
