@@ -129,15 +129,26 @@
     "emptyProxiesMsg": "Tidak ada proxy",
     "delayTestTooltip": "Test delay",
     "sortTooltip": "Urut Proxy",
+    "checkIp": "IP Cek",
+    "unknownIp": "IP Tidak Diketahui",
     "sortOptions": {
       "unsorted": "Awal",
       "name": "Alfabetikal",
       "delay": "Berdasarkan Delay"
+    },
+    "activeProxySemanticLabel": "Proksi Aktif",
+    "delaySemantics": {
+      "result": "Menunda: ${delay}ms",
+      "timeout": "Waktu Habis Tes Penduaan",
+      "testing": "Penundaan: Percobaan"
+    },
+    "ipInfoSemantics": {
+      "country": "Negara"
     }
   },
   "logs": {
     "pageTitle": "Log",
-    "filterHint": "Filter",
+    "filterHint": "Menyaring",
     "allLevelsFilter": "Semua",
     "shareCoreLogs": "Bagikan Log Inti",
     "shareAppLogs": "Bagikan Log Aplikasi",
@@ -146,10 +157,13 @@
     "clearTooltip": "Bersih"
   },
   "settings": {
-    "pageTitle": "Setting",
+    "pageTitle": "Pengaturan",
     "requiresRestartMsg": "Untuk mencoba restart aplikasi",
     "experimental": "Eksperimen",
     "experimentalMsg": "Fitur dengan tanda Eksperimen masih dalam pengembangan dan resiko bermasalah.",
+    "exportOptions": "Salin Opsi Anonim ke Papan Klip",
+    "exportAllOptions": "Salin Semua Opsi ke Papan Klip",
+    "importOptions": "Impor Opsi dari Papan Klip",
     "general": {
       "sectionTitle": "Umum",
       "locale": "Bahasa",
